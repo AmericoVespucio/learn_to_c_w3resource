@@ -5,6 +5,7 @@
  *
  * main - Main function, to call the other function with personalized parameters.
  * sum - You need another function, besides main to et
+ *
  * @x: First integer parameter for sum
  * @y: Second integer parameter for sum
  *
@@ -28,7 +29,7 @@ return(x+y); /* Return the sum of the two values */
 }
 }
 
-void main(void)
+void main(void) /* Void type of function, which doesnt have to return any value, and void parameters, we dont need any parameters */
 {
 printf("%d\n", sum(1,2)); /* Since expected output is 3, 1+2 will be the necessary sum to get */ 
 printf("%d\n", sum(2,2)); /* Since expected output is 12, 2+2 is 4, by knowing the condition that if the two values are the same 
