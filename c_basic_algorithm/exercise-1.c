@@ -1,16 +1,14 @@
 #include <stdio.h> /* Standard Input Output is only needed for this exercise, for the printf function */
 
 /**
- * 
- * main - Main function, to call the other function
- * sum - Solving this problem:
- * 
- * 1. Write a C program to compute the sum of the two given integer values. If the two values are the same, then return triple their sum. 
- * 
- * @x: Argument for sum
- * @y: Argument for sum
- * 
- * Expected Output : 3 12
+ * 1. Write a C program to compute the sum of the two given integer values. If the two values are the same, then return triple their sum.
+ *
+ * main - Main function, to call the other function with personalized parameters.
+ * sum - You need another function, besides main to et
+ * @x: First integer parameter for sum
+ * @y: Second integer parameter for sum
+ *
+ * Sample Expected Output : 3 12
  * 
  * Esteban Aguiar 2020 | W3RESOURCE.COM | C PROGRAMMING
  * 
@@ -33,5 +31,6 @@ return(x+y); /* Return the sum of the two values */
 void main(void)
 {
 printf("%d\n", sum(1,2)); /* Since expected output is 3, 1+2 will be the necessary sum to get */ 
-printf("%d\n", sum(2,2)); /* Since expected output is 12, 2+2 is 4, by knowing the condition that if the two values are the same then return the sum result multiplied by 3 will be 4*3 */
+printf("%d\n", sum(2,2)); /* Since expected output is 12, 2+2 is 4, by knowing the condition that if the two values are the same 
+                             then return the sum result multiplied by 3 will be 4*3 */
 }
