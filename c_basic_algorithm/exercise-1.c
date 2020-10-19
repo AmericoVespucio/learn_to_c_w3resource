@@ -4,7 +4,7 @@
  * 1. Write a C program to compute the sum of the two given integer values. If the two values are the same, then return triple their sum.
  *
  * main - Main function, to call the other function with personalized parameters.
- * sum - You need another function, besides main to et
+ * sum - You need another function, besides main, solves the problem explained upside.
  *
  * @x: First integer parameter for sum
  * @y: Second integer parameter for sum
